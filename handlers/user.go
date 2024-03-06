@@ -154,6 +154,5 @@ func MeHandler(s server.Server) http.HandlerFunc {
 		}
 
 		http.Error(w, err.Error(), http.StatusInternalServerError)
-		return
 	}
 }
